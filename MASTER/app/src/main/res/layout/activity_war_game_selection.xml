@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.WarGameSelectionActivity"
+    android:background="@drawable/war_background_selection">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relativeLayout2"
+        android:layout_width="180dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="50dp">
+
+        <ImageView
+            android:id="@+id/imageViewSelectedCharacter"
+            android:layout_width="130dp"
+            android:layout_height="160dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="39dp"
+            app:srcCompat="@drawable/war_char1_idle_001"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="79dp" />
+
+        <Button
+            android:id="@+id/buttonSwitchPlayerChar"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="76dp"
+            android:drawableLeft="@drawable/rotate32"
+            android:text="@string/switch_text" />
+
+        <TextView
+            android:id="@+id/textView_charSelection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="casual"
+            android:text="@string/character_selection"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="180dp"
+        android:layout_height="300dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentEnd="true">
+
+        <Button
+            android:id="@+id/buttonSwitchEnemyChar"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="76dp"
+            android:drawableLeft="@drawable/rotate32"
+            android:text="@string/switch_text" />
+
+        <TextView
+            android:id="@+id/textView_enemySelection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="casual"
+            android:text="@string/enemy_selection"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <ImageView
+            android:id="@+id/imageViewSelectedEnemy"
+            android:layout_width="130dp"
+            android:layout_height="160dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="39dp"
+            android:scaleX="-1"
+            app:srcCompat="@drawable/war_enemy1_idle_000"
+            tools:layout_editor_absoluteX="507dp"
+            tools:layout_editor_absoluteY="79dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/relativeLayout2">
+
+        <Button
+            android:id="@+id/buttonSwitchBackground"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="76dp"
+            android:drawableLeft="@drawable/rotate32"
+            android:text="@string/switch_text" />
+
+        <TextView
+            android:id="@+id/textView_backgroundSelection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="casual"
+            android:text="@string/background_selection"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <ImageView
+            android:id="@+id/imageViewSelectedBackground"
+            android:layout_width="170dp"
+            android:layout_height="160dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/war_background1"
+            tools:layout_editor_absoluteX="261dp"
+            tools:layout_editor_absoluteY="79dp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/buttonStartGame"
+        style="@style/PrimaryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:drawableLeft="@drawable/play32"
+        android:text="@string/start_game"
+        android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

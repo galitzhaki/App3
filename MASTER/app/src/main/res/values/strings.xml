@@ -1,0 +1,111 @@
+<resources>
+    <!-- General Strings -->
+    <string name="app_name">Tom\'s World</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Main Screen Strings -->
+    <string name="button_tic_tac_toe">X/0</string>
+    <string name="button_catch_em_all">Catch Em All</string>
+    <string name="button_meme">Meme Creator</string>
+    <string name="button_war_game">War Game</string>
+    <string name="button_scoreboard">Scores</string>
+    <string name="button_language">English</string>
+
+    <!-- Scoreboard Strings -->
+    <string name="scoreboard_history">Scoreboard History</string>
+
+    <!-- Tic Tac Toe Strings -->
+    <string name="tic_tac_toe">Tic Tac Toe</string>
+    <string name="new_game">New Game</string>
+    <string name="game_ended_tie">Game has ended with a tie.</string>
+    <string name="game_ended_win">Game has ended, {PLAYER} wins!</string>
+    <string name="player">Player</string>
+    <string name="computer">Computer</string>
+
+    <!-- War Game Strings -->
+    <string name="war_game_you_win_title">Congratulations! Android Project is SAVED!!</string>
+    <string name="enemy_is_dead">Yeahhh! Enemy is finally down. May the troll rest in peace..</string>
+    <string name="war_game_score_msg">Player has defeated the enemy troll.</string>
+    <string name="player_line1">Here I come, Troll! Prepare to be gone by the power of Tom!</string>
+    <string name="enemy_line1">You stand no chance! I will ruin you and your Android project!</string>
+
+    <!-- War Game Selection Strings -->
+    <string name="switch_text">Switch</string>
+    <string name="start_game">Start Game</string>
+    <string name="starting_game">Starting Game...</string>
+    <string name="character_selection">Character\nSelection</string>
+    <string name="enemy_selection">Enemy\nSelection</string>
+    <string name="background_selection">Background\nSelection</string>
+
+
+    <!-- Catch Em All Strings -->
+    <string name="catch_em_all_title">Catch Em All</string>
+    <string name="get_pokeballs">Get Balls</string>
+    <string name="catch_em_all_score_message">Player has caught {COUNT} Pokemons.</string>
+    <string name="count_caught_pokemons">x{COUNT} Pokemons</string>
+    <string name="pokemon_caught">{POKEMON} has been caught!</string>
+    <string name="received_pokeballs">Received more Pokeballs.</string>
+    <string name="no_pokeballs">You have no Pokeballs left (you can always get more though!).</string>
+    <string name="no_pokemons_left">There are no more Pokemons.. You\'ve got \'em all!</string>
+    <string name="catch_failed">Damn! The pokemon fled the scene.. Try again next time!</string>
+    <string name="pokemon_appeared">A wild {POKEMON} appeared!</string>
+    <string name="pokemon_you_lose">Whaaaaaaa! Too many Pokemons have appeared. You lost the game. :(</string>
+    <string name="pokemonsCaught">Pokemons Caught:</string>
+    <string name="availablePokeballs">Available Pokeballs:</string>
+    <string name="pokemon_snorlax">Snorlax</string>
+    <string name="pokemon_bulbasaur">Bulbasaur</string>
+    <string name="pokemon_eevee">Eevee </string>
+    <string name="pokemon_jigglypuff">Jigglypuff</string>
+    <string name="pokemon_charmander">Charmander</string>
+    <string name="pokemon_pikachu">Pikachu</string>
+    <string name="pokemon_psyduck">Psyduck</string>
+    <string name="pokemon_squirtle">Squirtle</string>
+    <string name="pokemon_meowth">Meowth</string>
+    <string name="pokemon_rattata">Rattata</string>
+    <string name="pokemon_abra">Abra</string>
+    <string name="pokemon_monkey">Monkey</string>
+
+    <!-- MEME STRINGS -->
+    <string name="top_text">Top image text</string>
+    <string name="bottom_text">Bottom image text</string>
+    <string name="try_text">ADD TEXT</string>
+    <string name="load_text">Load from gallery</string>
+    <string name="load_one">Load from application</string>
+    <string name="save_text">Save</string>
+    <string name="share_text">Share</string>
+    <string name="permission_text">No permission granted !</string>
+    <string name="exception">No sharing application found !</string>
+    <string name="share">Share via: </string>
+    <string name="fos_text">Saved !</string>
+    <string name="fos_error">Error saving !</string>
+    <string name="meme_score_message">Player earn {COUNT} point </string>
+
+    <!-- Login Screen Strings -->
+    <!--    <string name="login_hint">Hint: Username = \'Omer\' | Password = \'Irina\'</string>-->
+    <string name="login_hint">Please enter your login information.</string>
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in now</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_failed_login">Login attempt has failed</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+
+    <!-- General Strings -->
+    <string name="back">Back</string>
+    <string name="user_name">User name</string>
+    <string name="please_enter_your_name">Please enter your name</string>
+    <string name="password">Password</string>
+    <string name="please_enter_your_password">Please enter your password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="emptyError">Please enter user name and password!</string>
+    <string name="emptyErrorName">Please enter your name!</string>
+    <string name="emptyErrorPass">Please enter your password!</string>
+    <string name="errorMatch">Does not match user name or password!</string>
+    <string name="loginSuccess">Login Success!</string>
+    <string name="NAME">tom</string>
+    <string name="PASSWORD">gal</string>
+    <string name="pic_image">Click on image to pic it !</string>
+</resources>

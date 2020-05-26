@@ -1,0 +1,107 @@
+<resources>
+    <!-- General Strings -->
+    <string name="app_name">Tom\'s World</string>
+    <string name="title_activity_login">התחברות</string>
+
+    <!-- Main Screen Strings -->
+    <string name="button_tic_tac_toe">X/0</string>
+    <string name="button_catch_em_all">תפוס אותם</string>
+    <string name="button_war_game">משחק מלחמה</string>
+    <string name="button_scoreboard">טבלת ניקוד</string>
+    <string name="button_language">עברית</string>
+
+    <!-- Scoreboard Strings -->
+    <string name="scoreboard_history">היסטוריית ניקוד</string>
+
+    <!-- Tic Tac Toe Strings -->
+    <string name="tic_tac_toe">איקס עיגול</string>
+    <string name="new_game">משחק חדש</string>
+    <string name="game_ended_tie">המשחק נגמר בתיקו</string>
+    <string name="game_ended_win">המשחק נגמר, {PLAYER} ניצח!</string>
+    <string name="player">שחקן</string>
+    <string name="computer">מחשב</string>
+
+    <!-- War Game Strings -->
+    <string name="war_game_you_win_title">ברכות! פרוייקט האנדרואיד ניצל!!</string>
+    <string name="enemy_is_dead">כןן! האויב הובס. אין כאן מקום לטרולים..</string>
+    <string name="war_game_score_msg">השחק הביס את האויב הטרול.</string>
+    <string name="player_line1">הכן את עצמך טרול! אני עומד להשמיד אותך עכשיו</string>
+    <string name="enemy_line1">אין לך סיכוי! אני אהרוס אותך ואת פרוייקט האנדרואיד שלך</string>
+
+    <!-- War Game Selection Strings -->
+    <string name="switch_text">החלף</string>
+    <string name="start_game">התחל משחק</string>
+    <string name="starting_game">מתחיל משחק...</string>
+    <string name="character_selection">בחירת\nדמות</string>
+    <string name="enemy_selection">בחירת\nאויב</string>
+    <string name="background_selection">בחירת\nרקע</string>
+
+    <!-- Catch Em All Strings -->
+    <string name="catch_em_all_title">תפוס אותם</string>
+    <string name="get_pokeballs">קבל כדורים</string>
+    <string name="catch_em_all_score_message">השחקן תפס {COUNT} פוקימונים.</string>
+    <string name="count_caught_pokemons">x{COUNT} פוקימונים</string>
+    <string name="pokemon_caught">{POKEMON} נתפס!</string>
+    <string name="received_pokeballs">קיבלת עוד כדורים.</string>
+    <string name="no_pokeballs">לא נשארו לך כדורים (ניתן לקבל עוד!).</string>
+    <string name="no_pokemons_left">לא נשארו יותר פוקימונים.. תפסת את כולם!</string>
+    <string name="catch_failed">באסה! הפוקימון הצליח לברוח.. נסה שוב!</string>
+    <string name="pokemon_appeared">הופיע {POKEMON} פרוע!</string>
+    <string name="pokemon_you_lose">אוי לא! הופיעו יותר מדי פוקימונים.. הפסדת. :(</string>
+    <string name="pokemonsCaught">פוקימונים נתפסו:</string>
+    <string name="availablePokeballs">כדורים זמינים:</string>
+    <string name="pokemon_snorlax">סנורלקס</string>
+    <string name="pokemon_bulbasaur">בלווזור</string>
+    <string name="pokemon_eevee">איבי</string>
+    <string name="pokemon_jigglypuff">גיגליפאף</string>
+    <string name="pokemon_charmander">צארמנדר</string>
+    <string name="pokemon_pikachu">פיקאצו</string>
+    <string name="pokemon_psyduck">פסיידק</string>
+    <string name="pokemon_squirtle">סקווירטל</string>
+    <string name="pokemon_meowth">מיאו</string>
+    <string name="pokemon_rattata">רטטה</string>
+    <string name="pokemon_abra">אברה</string>
+    <string name="pokemon_monkey">מאנקי</string>
+
+    <!-- Login Screen Strings -->
+    <string name="login_hint">רמז: משתמש = \'user\' | סיסמא = \'1234\'</string>
+    <string name="prompt_username">שם משתמש</string>
+    <string name="prompt_password">סיסמא</string>
+    <string name="action_sign_in">התחבר עכשיו</string>
+    <string name="action_sign_in_short">התחברות</string>
+    <string name="error_invalid_email">כתובת המייל אינה חוקית</string>
+    <string name="error_failed_login">נסיון התחברות נכשל</string>
+    <string name="error_incorrect_password">הסיסמא שגויה</string>
+    <string name="error_field_required">שדה זה הינו חובה</string>
+    <string name="permission_rationale">"הרשאות עבור אנשי הקשר נחוצות."</string>
+
+    <!-- General Strings -->
+    <string name="back">חזור</string>
+    <string name="user_name">שם משתמש</string>
+    <string name="please_enter_your_name">אנא הכנס את שמך</string>
+    <string name="password">סיסמה</string>
+    <string name="please_enter_your_password">הזן את סיסמתך בבקשה</string>
+    <string name="sign_in">להתחבר</string>
+    <string name="emptyError">אנא הכנס שם משתמש וסיסמא!</string>
+    <string name="emptyErrorName">אנא הכנס את שמך!</string>
+    <string name="emptyErrorPass">הזן את סיסמתך בבקשה!</string>
+    <string name="errorMatch">לא תואם את שם המשתמש או הסיסמה!</string>
+    <string name="loginSuccess">הצלחה בכניסה!</string>
+
+
+    <string name = "top_text"> טקסט תמונה עליון </string>
+    <string name = "bottom_text"> טקסט תמונה תחתונה </string>
+    <string name = "try_text"> הוסף טקסט </string>
+    <string name = "load_text"> טען </string>
+    <string name="load_one">טען מהגלריה</string>
+    <string name = "save_text"> שמור </string>שחקן הרוויח נקודה {COUNT}
+    <string name = "share_text"> שתף </string>
+    <string name = "permission_text"> לא ניתנה הרשאה! </string>
+    <string name = "exception"> לא נמצאה אפליקציית שיתוף! </string>
+    <string name = "share"> שתף באמצעות </string>
+    <string name = "fos_text"> נשמר </string>
+    <string name = "fos_error"> שגיאה בשמירה</string>
+    <string name="button_meme">בורא</string>
+    <string name="pic_image">לחץ על התמונה כדי לצלם אותה</string>
+    <string name="meme_score_message">שחקן הרוויח נקודה {COUNT}</string>
+</resources>

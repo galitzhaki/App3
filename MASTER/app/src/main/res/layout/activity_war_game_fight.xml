@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    android:id="@+id/war_game_fight_background"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/war_background4"
+    tools:context=".ui.activities.WarGameFightActivity">
+
+    <TextView
+        android:id="@+id/textViewEnemyCharTooltip"
+        android:layout_width="103dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/enemy_line1"
+        android:textSize="12sp"
+        android:translationZ="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewEnemyCharTooltip"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewEnemyCharTooltip"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="@+id/imageViewEnemyCharTooltip"
+        app:layout_constraintTop_toTopOf="@+id/imageViewEnemyCharTooltip"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageViewEnemyCharTooltip"
+        android:layout_width="150dp"
+        android:layout_height="88dp"
+        android:layout_marginBottom="120dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewSelectedEnemy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/popup_2" />
+
+    <ImageView
+        android:id="@+id/imageViewPlayerCharTooltip"
+        android:layout_width="150dp"
+        android:layout_height="88dp"
+        android:layout_marginBottom="120dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewSelectedCharacter"
+        app:srcCompat="@drawable/popup_2"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <ImageView
+        android:id="@+id/imageViewSelectedEnemy"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:scaleX="-1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/war_enemy2_idle_000" />
+
+    <ImageButton
+        android:id="@+id/imageButtonAttack"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:alpha="0.3"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonRight"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonLeft"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sword" />
+
+    <ImageButton
+        android:id="@+id/imageButtonLeft"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:alpha="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/left" />
+
+    <ImageView
+        android:id="@+id/imageViewSelectedCharacter"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/war_char2_idle_000" />
+
+    <ImageButton
+        android:id="@+id/imageButtonRight"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="false"
+        android:alpha="0.3"
+        android:cropToPadding="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/right" />
+
+    <TextView
+        android:id="@+id/textViewPlayerCharTooltip"
+        android:layout_width="114dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/player_line1"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewPlayerCharTooltip"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewPlayerCharTooltip"
+        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintStart_toStartOf="@+id/imageViewPlayerCharTooltip"
+        app:layout_constraintTop_toTopOf="@+id/imageViewPlayerCharTooltip"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageViewFight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonAttack"
+        app:srcCompat="@drawable/fight" />
+</android.support.constraint.ConstraintLayout>

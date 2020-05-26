@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    android:id="@+id/war_game_fight_background"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/war_background4"
+    tools:context=".ui.activities.WarGameFightActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <ImageButton
+               android:id="@+id/imageButtonLeft"
+               android:layout_width="140dp"
+               android:layout_height="wrap_content"
+               android:alpha="0.3"
+               android:layout_toStartOf="@id/imageButtonAttack"
+               app:srcCompat="@drawable/left" />
+
+
+   <ImageButton
+        android:id="@+id/imageButtonAttack"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:alpha="0.3"
+        app:srcCompat="@drawable/sword" />
+
+           <ImageButton
+        android:id="@+id/imageButtonRight"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="false"
+        android:alpha="0.3"
+        android:layout_toEndOf="@+id/imageButtonAttack"
+        app:srcCompat="@drawable/right" />
+
+       </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageViewFight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:visibility="visible"
+       android:layout_centerInParent="true"
+        app:srcCompat="@drawable/fight" />
+        <ImageView
+            android:id="@+id/imageViewPlayerCharTooltip"
+            android:layout_width="150dp"
+            android:layout_height="88dp"
+            android:layout_above="@id/imageViewSelectedCharacter"
+            app:srcCompat="@drawable/popup_2"
+            tools:layout_editor_absoluteX="16dp" />
+        <TextView
+            android:id="@+id/textViewPlayerCharTooltip"
+            android:layout_width="114dp"
+            android:layout_height="44dp"
+            android:layout_marginBottom="33dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/player_line1"
+            android:textSize="12sp"
+            android:layout_above="@+id/imageViewSelectedCharacter"
+            app:layout_constraintHorizontal_bias="0.625"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <ImageView
+            android:id="@+id/imageViewSelectedCharacter"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_alignParentBottom="true"
+            app:srcCompat="@drawable/war_char2_idle_000" />
+        <TextView
+            android:id="@+id/textViewEnemyCharTooltip"
+            android:layout_width="103dp"
+            android:layout_height="56dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginEnd="28dp"
+            android:text="@string/enemy_line1"
+            android:textSize="12sp"
+            android:translationZ="2dp"
+            app:layout_constraintHorizontal_bias="0.567"
+           android:layout_above="@id/imageViewSelectedEnemy"
+            android:layout_alignParentEnd="true"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageViewEnemyCharTooltip"
+            android:layout_width="150dp"
+            android:layout_height="88dp"
+            android:layout_marginEnd="16dp"
+            android:layout_alignParentEnd="true"
+            android:layout_above="@id/imageViewSelectedEnemy"
+            app:srcCompat="@drawable/popup_2" />
+
+
+        <ImageView
+            android:id="@+id/imageViewSelectedEnemy"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="16dp"
+            android:scaleX="-1"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            app:srcCompat="@drawable/war_enemy2_idle_000" />
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
